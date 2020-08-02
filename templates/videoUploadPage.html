@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1"><h2>Khelo</h2></span>
+      </nav>
+</head>
+<body>
+<h3 style="margin: 15px;">You are almost there..</h3>
+<div style="margin: 15px;">
+<h4><strong>Tips:</strong> Be sure to videos of this type, it will help you get better faster!</h4>
+<div style="margin-top: 20px;">
+<img src="{% static gif %}" style="float: left;">
+</div>
+<br>
+<div style="float: left;">
+<form action="uploadGymVideoCustom" enctype="multipart/form-data" method="post" style="margin-top: 30px;">
+    <input type="file" class="btn btn-secondary"  name="video" accept="video/*">
+    <input type="submit" class="btn btn-primary" value="Upload Video">
+</form>
+</div>
+
+<img src="{% static 'img/upload_wallpaper.jpg' %}" style="width: 500px;height: 200px;margin-left: 150px;">
+</div>
+</body>
+</html>

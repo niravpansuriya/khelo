@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback</title>
+</head>
+<body>
+
+<h2>Initial Image</h2>
+<img id="initialImage" src="/media/image{{ initFr }}.jpg"/>
+<p id="initFeedback" style="float: right; position: relative; margin-right: 50%">
+    {% for feedback in initFd %}
+        ->{{ feedback }}<br/>
+    {% endfor %}
+</p>
+
+<hr/>
+
+<h2>Execution Image</h2>
+<img id="executionImage" src="/media/image{{ execFr }}.jpg"/>
+<p id="execFeedback" style="float: right; position: relative; margin-right: 40%">
+    {% for feedback in execFd %}
+        ->{{ feedback }}<br/>
+    {% endfor %}
+</p>
+
+
+</body>
+</html>
