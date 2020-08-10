@@ -55,7 +55,7 @@
 
 ### Demo
 
-- Watch a [demo](https://drive.google.com/file/d/1X-iAs05cy-JFh7KOvko9TyZTYsMkPbTn/view?usp=sharing)
+- Watch a [demo](https://github.com/niravpansuriya/khelo/blob/master/demo.mp4)
 
 
 ## Authors
